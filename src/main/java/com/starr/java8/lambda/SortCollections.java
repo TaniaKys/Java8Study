@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by tetianad on 4/24/2017.
  */
-public class JavaCollections {
+public class SortCollections {
 
     public static void main(String[] args) {
 

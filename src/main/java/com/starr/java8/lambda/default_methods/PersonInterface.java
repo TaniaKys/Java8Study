@@ -15,4 +15,9 @@ public interface PersonInterface {
     default String getPersonInfo(){
         return "Info: name = ["+ getName() + "], age = ["+getAge()+"]";
     }
+
+    //static method
+    static String getPersonInfo(Person person){
+        return "Info: name = ["+ person.getName() + "], age = ["+person.getAge()+"]";
+    }
 }

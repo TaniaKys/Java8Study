@@ -25,7 +25,11 @@ public class DefaultMethods {
     private static void displayPersons(List<Person> persons, Predicate<Person> pred){
         persons.forEach(person -> {
             if(pred.test(person)){
-                System.out.println(person.getPersonInfo());
+                //using default method
+                //System.out.println(person.getPersonInfo());
+
+                //using static method
+                System.out.println(PersonInterface.getPersonInfo(person));
             }
         });
     }

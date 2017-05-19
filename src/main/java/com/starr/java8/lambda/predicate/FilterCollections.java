@@ -32,4 +32,12 @@ public class FilterCollections {
         });
     }
 
+    private static void del(List<Person> persons, Predicate<Person> pred){
+        persons.forEach(person -> {
+            if(pred.test(person)){
+                System.out.println(person);
+            }
+        });
+    }
+
 }

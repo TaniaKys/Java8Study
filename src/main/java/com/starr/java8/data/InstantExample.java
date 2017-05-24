@@ -1,4 +1,4 @@
-package com.starr.java8.lambda.data;
+package com.starr.java8.data;
 
 import java.time.Duration;
 import java.time.Instant;
